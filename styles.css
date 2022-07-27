@@ -106,3 +106,37 @@ p {
   object-fit: contain;
   border-radius: 20px;
 }
+
+.section3 {
+  background-color: #e5e7eb;
+  display: flex;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+#quote-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  margin: 0;
+}
+
+#quote-attribution {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  padding-right: 75px;
+}

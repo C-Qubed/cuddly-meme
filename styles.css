@@ -39,6 +39,7 @@ p {
   color: white;
   display: flex;
   flex-direction: row;
+  padding-bottom: 100px;
 }
 
 .left {
@@ -59,12 +60,14 @@ p {
 }
 
 .introduction {
-  margin-top: 100px;
+  margin-top: 120px;
   margin-bottom: 100px;
 }
 
 #img1 {
+  margin-top: 20px;
   object-fit: contain;
+  border-radius: 25px;
 }
 
 .section2 {
@@ -72,6 +75,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 200px;
 }
 
 .cardcontainer {
@@ -79,4 +83,26 @@ p {
   gap: 25px;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
+}
+
+.card {
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  width: 250px;
+  border: 5px solid turquoise;
+  border-radius: 25px;
+}
+
+.card > h4 {
+  align-self: center;
+  text-align: center;
+  width: 100%;
+}
+
+.card-image {
+  object-fit: contain;
+  border-radius: 20px;
 }
